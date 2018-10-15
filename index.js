@@ -206,7 +206,7 @@ CleanWebpackPlugin.prototype.apply = function(compiler) {
       if (hooks) {
         hooks.emit.tapAsync(pluginName, emit);
       } else {
-        compiler.plugin("emit", emit);
+        compiler.plugin("after-emit", emit);
       }
     } else {
       return clean.call(_this);
