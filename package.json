@@ -1,9 +1,9 @@
 {
-  "name": "clean-webpack-plugin",
-  "version": "0.1.19",
-  "author": "John Agan <johnagan@gmail.com>",
+  "name": "clean-file-webpack-plugin",
+  "version": "0.0.1",
+  "author": "Cary Yang <carynihility@gmail.com>",
   "description": "A webpack plugin to remove your build folder(s) before building",
-  "homepage": "https://github.com/johnagan/clean-webpack-plugin",
+  "homepage": "https://github.com/yangyichen/clean-webpack-plugin",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnagan/clean-webpack-plugin.git"
+    "url": "https://github.com/yangyichen/clean-webpack-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/johnagan/clean-webpack-plugin/issues"
+    "url": "https://github.com/yangyichen/clean-webpack-plugin/issues"
   },
   "scripts": {
     "test": "mocha --recursive ./test/*_spec.js",
